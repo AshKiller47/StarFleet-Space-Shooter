@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="StarFleet" Version="11000" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="Game">
+    <File Name="Game/World.hpp"/>
+    <File Name="Game/Utility.hpp"/>
+    <File Name="Game/TitleState.hpp"/>
+    <File Name="Game/TitleLoadTask.hpp"/>
+    <File Name="Game/TitleLoadState.hpp"/>
+    <File Name="Game/TextNode.hpp"/>
+    <File Name="Game/StringHelpers.inl"/>
+    <File Name="Game/StringHelpers.hpp"/>
+    <File Name="Game/StateStack.hpp"/>
+    <File Name="Game/StateIdentifiers.hpp"/>
+    <File Name="Game/State.hpp"/>
+    <File Name="Game/SpriteNode.hpp"/>
+    <File Name="Game/Spacecraft.hpp"/>
+    <File Name="Game/SettingsState.hpp"/>
+    <File Name="Game/SceneNode.hpp"/>
+    <File Name="Game/ResourceIdentifiers.hpp"/>
+    <File Name="Game/ResourceHolder.hpp"/>
+    <File Name="Game/Projectile.hpp"/>
+    <File Name="Game/Player.hpp"/>
+    <File Name="Game/Pickup.hpp"/>
+    <File Name="Game/PauseState.hpp"/>
+    <File Name="Game/MenuState.hpp"/>
+    <File Name="Game/Label.hpp"/>
+    <File Name="Game/GameState.hpp"/>
+    <File Name="Game/GameOverState.hpp"/>
+    <File Name="Game/GameModeState.hpp"/>
+    <File Name="Game/GameLoadTask.hpp"/>
+    <File Name="Game/GameLoadState.hpp"/>
+    <File Name="Game/Entity.hpp"/>
+    <File Name="Game/DataTables.hpp"/>
+    <File Name="Game/Container.hpp"/>
+    <File Name="Game/Component.hpp"/>
+    <File Name="Game/CommandQueue.hpp"/>
+    <File Name="Game/Command.hpp"/>
+    <File Name="Game/Category.hpp"/>
+    <File Name="Game/Button.hpp"/>
+    <File Name="Game/Application.hpp"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="World.cpp"/>
+    <File Name="Utility.cpp"/>
+    <File Name="TitleState.cpp"/>
+    <File Name="TitleLoadTask.cpp"/>
+    <File Name="TitleLoadState.cpp"/>
+    <File Name="TextNode.cpp"/>
+    <File Name="StringHelpers.cpp"/>
+    <File Name="StateStack.cpp"/>
+    <File Name="State.cpp"/>
+    <File Name="SpriteNode.cpp"/>
+    <File Name="Spacecraft.cpp"/>
+    <File Name="SettingsState.cpp"/>
+    <File Name="SceneNode.cpp"/>
+    <File Name="ResourceHolder.cpp"/>
+    <File Name="Projectile.cpp"/>
+    <File Name="Player.cpp"/>
+    <File Name="Pickup.cpp"/>
+    <File Name="PauseState.cpp"/>
+    <File Name="MenuState.cpp"/>
+    <File Name="Label.cpp"/>
+    <File Name="GameState.cpp"/>
+    <File Name="GameOverState.cpp"/>
+    <File Name="GameModeState.cpp"/>
+    <File Name="GameLoadTask.cpp"/>
+    <File Name="GameLoadState.cpp"/>
+    <File Name="Entity.cpp"/>
+    <File Name="DataTables.cpp"/>
+    <File Name="Container.cpp"/>
+    <File Name="Component.cpp"/>
+    <File Name="CommandQueue.cpp"/>
+    <File Name="Command.cpp"/>
+    <File Name="Button.cpp"/>
+    <File Name="Application.cpp"/>
+    <File Name="main.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="MinGW_7.3.0 ( C:\Retrofit\MinGW64\v7.3.0\mingw64\bin\ )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="1">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(ProjectName).exe" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CodeLite Makefile Generator"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="MinGW_7.3.0 ( C:\Retrofit\MinGW64\v7.3.0\mingw64\bin\ )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="1">
+        <IncludePath Value="C:/Retrofit/CodeLite/Libraries/SFML-2.5.1/include"/>
+        <Preprocessor Value="NDEBUG"/>
+        <Preprocessor Value="SFML_STATIC"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="C:/Retrofit/CodeLite/Libraries/SFML-2.5.1/lib"/>
+        <Library Value="sfml-graphics"/>
+        <Library Value="sfml-window"/>
+        <Library Value="sfml-audio"/>
+        <Library Value="sfml-network"/>
+        <Library Value="sfml-system"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(ProjectName).exe" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CodeLite Makefile Generator"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
